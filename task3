@@ -1,0 +1,15 @@
+Console.WriteLine("введите число ");
+
+string A = Console.ReadLine()!;
+
+int ParseA = int.Parse(A);
+
+int b = ParseA%2;
+
+if (b==0)
+{
+
+     Console.WriteLine("Число четное ");   
+
+}   
+else Console.WriteLine("Число не четное");
